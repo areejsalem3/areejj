@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>College Connect - COE</title>
+
+  <style>
+
+    body {
+
+      margin: 0;
+
+      font-family: Arial, sans-serif;
+
+      background: #121417;
+
+      color: #f1f5f9;
+
+    }
+
+
+
+    header {
+
+      text-align: center;
+
+      padding: 40px 20px 20px;
+
+    }
+
+    header h1 {
+
+      color: #38bdf8;
+
+      margin: 0;
+
+      font-size: 36px;
+
+    }
+
+    header p {
+
+      margin: 10px 0 20px;
+
+      color: #e2e8f0;
+
+      font-size: 16px;
+
+    }
+
+
+
+    .hero-media {
+
+      max-width: 700px;
+
+      margin: 0 auto 30px;
+
+      background: #e5e7eb;
+
+      padding: 40px;
+
+      border-radius: 8px;
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      color: #1e293b;
+
+    }
+
+    .hero-circle {
+
+      width: 80px;
+
+      height: 80px;
+
+      border-radius: 50%;
+
+      background: #38bdf8;
+
+    }
+
+    .hero-buttons {
+
+      display: flex;
+
+      flex-direction: column;
+
+      gap: 10px;
+
+    }
+
+    .hero-buttons div {
+
+      width: 100px;
+
+      height: 20px;
+
+      background: #38bdf8;
+
+      border-radius: 4px;
+
+    }
+
+
+
+    header a {
+
+      text-decoration: none;
+
+      background: #38bdf8;
+
+      color: #0f172a;
+
+      padding: 8px 14px;
+
+      border-radius: 6px;
+
+      font-weight: bold;
+
+      display: inline-block;
+
+      margin-top: 15px;
+
+    }
+
+
+
+    .row {
+
+      display: flex;
+
+      gap: 20px;
+
+      margin: 30px 20px;
+
+      flex-wrap: wrap;
+
+    }
+
+
+
+    .left-col {
+
+      flex: 0 0 180px;
+
+    }
+
+    .left-col h2 {
+
+      font-size: 18px;
+
+      margin-bottom: 10px;
+
+      color: #cbd5e1;
+
+    }
+
+    .left-col ul {
+
+      list-style: none;
+
+      padding: 0;
+
+      margin: 0;
+
+    }
+
+    .left-col li {
+
+      margin: 8px 0;
+
+      color: #f1f5f9;
+
+      font-size: 14px;
+
+    }
+
+
+
+    .cards {
+
+      flex: 1;
+
+      display: flex;
+
+      gap: 20px;
+
+      flex-wrap: wrap;
+
+    }
+
+    .card {
+
+      flex: 1 1 250px;
+
+      background: #f8fafc;
+
+      color: #1e293b;
+
+      padding: 20px;
+
+      border-radius: 8px;
+
+      box-shadow: 0 4px 12px rgba(0,0,0,.3);
+
+      transition: 0.2s;
+
+    }
+
+    .card:hover {
+
+      box-shadow: 0 8px 16px rgba(0,0,0,.4);
+
+      transform: translateY(-4px);
+
+    }
+
+    .card h2 {
+
+      margin-top: 0;
+
+      font-size: 18px;
+
+      color: #0369a1;
+
+    }
+
+    .card p {
+
+      font-size: 14px;
+
+      margin: 0;
+
+      white-space: pre-line;
+
+      color: #334155;
+
+    }
+
+
+
+    footer {
+
+      text-align: center;
+
+      padding: 20px;
+
+      font-size: 13px;
+
+      color: #e2e8f0;
+
+      border-top: 1px solid rgba(255,255,255,0.1);
+
+      margin-top: 30px;
+
+    }
+
+    footer .small {
+
+      margin-top: 6px;
+
+      font-size: 12px;
+
+      color: #94a3b8;
+
+    }
+
+
+
+    @media(max-width: 700px) {
+
+      .row { flex-direction: column; }
+
+      .left-col { order: 2; }
+
+      .cards { order: 1; }
+
+      .hero-media { flex-direction: column; gap: 20px; }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+
+
+  <header>
+
+    <h1>Welcome to COE</h1>
+
+    <p>Your hub for campus highlights, events, and announcements.</p>
+
+
+
+    <div class="hero-media">
+
+      <div class="hero-circle"></div>
+
+      <div class="hero-buttons">
+
+        <div></div>
+
+        <div></div>
+
+      </div>
+
+    </div>
+
+
+
+    <a href="#">See Updates</a>
+
+  </header>
+
+
+
+  <div class="row">
+
+    <div class="left-col">
+
+      <h2>Stay Connected</h2>
+
+      <ul>
+
+        <li>Snapchat</li>
+
+        <li>Whatsapp</li>
+
+        <li>Facebook</li>
+
+      </ul>
+
+    </div>
+
+
+
+    <div class="cards">
+
+      <div class="card">
+
+        <h2>Events</h2>
+
+        <p>Weekly Tech Talks<br>Student Hackathons<br>Career fairs</p>
+
+      </div>
+
+      <div class="card">
+
+        <h2>Clubs</h2>
+
+        <p>AI & Robotics<br>Web Dev Circle<br>Design Guild</p>
+
+      </div>
+
+      <div class="card">
+
+        <h2>Facilities</h2>
+
+        <p>Library & Study Zones<br>Modern Labs<br>Café & Snacks</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <footer>
+
+    Get start — Download this project and start customizing. 
+
+    No hosting or database required; just open the <code>index.html</code> file.
+
+    <div class="small">©2025 College Connect • Developed by Areej</div>
+
+  </footer>
+
+
+
+</body>
+
+</html>
+

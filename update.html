@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <title>College Connect - Updates</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+  <style>
+
+    body {
+
+      background-color: #000;
+
+      font-family: Arial, sans-serif;
+
+    }
+
+    .w3-bar {
+
+      background-color: #111 !important;
+
+    }
+
+    .w3-bar-item {
+
+      font-weight: bold;
+
+      color: white !important;
+
+    }
+
+    .w3-card {
+
+      border-radius: 8px;
+
+    }
+
+    .w3-button {
+
+      border-radius: 6px;
+
+    }
+
+    .w3-modal-content {
+
+      border-radius: 10px;
+
+      background-color: #222;
+
+      color: white;
+
+    }
+
+    h2, h4 {
+
+      font-family: Verdana, sans-serif;
+
+    }
+
+  </style>
+
+</head>
+
+<body class="w3-black">
+
+
+
+  <div class="w3-bar w3-dark-grey">
+
+    <span class="w3-bar-item">College Connect</span>
+
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+
+    <a href="updates.html" class="w3-bar-item w3-button">Updates</a>
+
+  </div>
+
+
+
+  <div class="w3-container w3-center w3-text-light-blue">
+
+    <h2>Updates @Blog</h2>
+
+    <p>Find announcements, events and campus highlights. Use search to filter posts.</p>
+
+  </div>
+
+
+
+  <div class="w3-container w3-center">
+
+    <input class="w3-input w3-border w3-round" style="max-width:250px;display:inline-block" type="text" placeholder="Search announcements">
+
+    <button class="w3-button w3-blue">Search</button>
+
+    <button class="w3-button w3-light-grey">Clear</button>
+
+  </div>
+
+
+
+  <div class="w3-container w3-right w3-margin">
+
+    <button class="w3-button w3-blue w3-small">All</button><br>
+
+    <button class="w3-button w3-blue w3-small">Events</button><br>
+
+    <button class="w3-button w3-blue w3-small">Clubs</button><br>
+
+    <button class="w3-button w3-blue w3-small">Facilities</button><br>
+
+    <button class="w3-button w3-blue w3-small">News</button>
+
+    <p class="w3-small w3-text-white">4 posts found</p>
+
+  </div>
+
+
+
+  <div class="w3-row-padding w3-margin-top" style="max-width:1000px;margin:auto">
+
+
+
+    <div class="w3-half w3-margin-bottom">
+
+      <div class="w3-card w3-blue w3-padding">
+
+        <h4>Orientation week kickoff</h4>
+
+        <p>Sep 01, 2025 ， Event</p>
+
+        <p>Meet faculty, join tours, and grab your starter kit.</p>
+
+        <button onclick="document.getElementById('modal1').style.display='block'" class="w3-button w3-white">Read more</button>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="w3-half w3-margin-bottom">
+
+      <div class="w3-card w3-blue w3-padding">
+
+        <h4>AI lab open night</h4>
+
+        <p>Sep 10, 2025 ， Clubs</p>
+
+        <p>Demos on computer vision and robotics ， beginner welcome</p>
+
+        <button onclick="document.getElementById('modal2').style.display='block'" class="w3-button w3-white">Read more</button>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="w3-half w3-margin-bottom">
+
+      <div class="w3-card w3-blue w3-padding">
+
+        <h4>Extended library hours during midterms</h4>
+
+        <p>Oct 03, 2025 ， Facilities</p>
+
+        <p>Study space open till midnight with quiet and group zones.</p>
+
+        <button onclick="document.getElementById('modal3').style.display='block'" class="w3-button w3-white">Read more</button>
+
+      </div>
+
+    </div>
+
+
+
+    <div class="w3-half w3-margin-bottom">
+
+      <div class="w3-card w3-blue w3-padding">
+
+        <h4>College website refresh</h4>
+
+        <p>Oct 20, 2025 ， News</p>
+
+        <p>We're modernizing navigation, accessibility and mobile UX.</p>
+
+        <button onclick="document.getElementById('modal4').style.display='block'" class="w3-button w3-white">Read more</button>
+
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
+
+  <div id="modal1" class="w3-modal">
+
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+
+      <header class="w3-container w3-blue"> 
+
+        <span onclick="document.getElementById('modal1').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+
+        <h2>Orientation week kickoff</h2>
+
+      </header>
+
+      <div class="w3-container">
+
+        <p><b>Date:</b> Sep 01, 2025</p>
+
+        <p><b>Type:</b> Event</p>
+
+        <p>Welcome to our Orientation Week! Meet faculty, join tours, and grab your starter kit.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div id="modal2" class="w3-modal">
+
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+
+      <header class="w3-container w3-blue"> 
+
+        <span onclick="document.getElementById('modal2').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+
+        <h2>AI lab open night</h2>
+
+      </header>
+
+      <div class="w3-container">
+
+        <p><b>Date:</b> Sep 10, 2025</p>
+
+        <p><b>Type:</b> Clubs</p>
+
+        <p>Come explore our AI lab! See demos on computer vision and robotics. Beginners are welcome.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div id="modal3" class="w3-modal">
+
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+
+      <header class="w3-container w3-blue"> 
+
+        <span onclick="document.getElementById('modal3').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+
+        <h2>Extended library hours</h2>
+
+      </header>
+
+      <div class="w3-container">
+
+        <p><b>Date:</b> Oct 03, 2025</p>
+
+        <p><b>Type:</b> Facilities</p>
+
+        <p>Library will stay open until midnight during midterms. Both quiet and group zones available.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div id="modal4" class="w3-modal">
+
+    <div class="w3-modal-content w3-animate-top w3-card-4">
+
+      <header class="w3-container w3-blue"> 
+
+        <span onclick="document.getElementById('modal4').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+
+        <h2>College website refresh</h2>
+
+      </header>
+
+      <div class="w3-container">
+
+        <p><b>Date:</b> Oct 20, 2025</p>
+
+        <p><b>Type:</b> News</p>
+
+        <p>The college website is getting an upgrade with better navigation, accessibility and mobile UX.</p>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+  <div class="w3-container w3-center w3-margin-top w3-text-light-blue">
+
+    <a href="index.html" class="w3-button w3-black">Back to home</a>
+
+    <p>?2025 College Connect ， built for the associate diploma in software development</p>
+
+  </div>
+
+
+
+</body>
+
+</html>
+
